@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket booking</title>
+</head>
+<body>
+<form>
+
+    <fieldset>
+        <label>Name
+        <input type="text" name="name" value="" required>
+        </label>
+        <label>Street
+            <input type="text" name="street" value="" required>
+        </label>
+        <label>State
+            <select name="state" required>
+                <option name="Iowa" value="Iowa">Iowa</option>
+                <option name="California" California="IOWA">California</option>
+                <option name="Florida" value="Florida">Florida</option>
+            </select>
+        </label>
+        <label>Zip Code
+            <input type="text" name="zip" value="" required>
+        </label>
+        <label>How many seats?
+            <input type="text" name="seat" value="" required>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Which taxi do you require?</legend>
+        <label for="car">Car</label>
+        <input type="checkbox" name="taxi" id="car">
+        <label for="van">Van</label>
+        <input type="checkbox" name="taxi" id="van">
+        <label for="tuktuk">Tuk Tuk</label>
+        <input type="checkbox" name="taxi" id="tuktuk">
+    </fieldset>
+    <fieldset>
+        <legend>Extras</legend>
+        <label for="babyseat">Baby Seat</label>
+        <input type="checkbox" id="babyseat">
+        <label for="wheelchair">Wheelchair Access</label>
+        <input type="checkbox" id="wheelchair">
+        <label for="stock">Stock Tip</label>
+        <input type="checkbox" id="stock">
+    </fieldset>
+    <textarea name="instruction" rows="5" cols="15">Special Instructions</textarea>
+    <input type="submit" name="submit" value="Submit Booking">
+
+</form>
+
+</body>
+</html>
