@@ -12,10 +12,10 @@
 <body>
 <form id="booking" action="">
 
-    <fieldset>
-        <div id="forError">
+    <fieldset id="forError">
+        <div>
         <label>Name
-        <input type="text" id="name" name="name" value="">
+        <input type="text" id="fname" name="name" value="">
         </label></div>
         <div>
         <label>Street
@@ -25,17 +25,17 @@
         <label>State
             <select name="state" required>
                 <option name="Iowa" value="Iowa">Iowa</option>
-                <option name="California" California="IOWA">California</option>
+                <option name="California" value="IOWA">California</option>
                 <option name="Florida" value="Florida">Florida</option>
             </select>
         </label></div>
         <div>
         <label>Zip Code
-            <input type="text" name="zip" value="" required>
+            <input type="text" id="zip" name="zipcode" value="">
         </label></div>
         <div>
         <label>How many seats?
-            <input type="text" name="seat" value="" required>
+            <input type="text" id="seat" name="seatNumber" value="">
         </label></div>
     </fieldset>
     <fieldset>
