@@ -1,3 +1,7 @@
 /*.makeBlock {*/
 /*    display: block;*/
 /*}*/
+
+.error {
+    color: red;
+}
